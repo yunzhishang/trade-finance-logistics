@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="288f5d81-bd0e-46dd-961b-e96d0691d144" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer/lib/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/composer/lib/logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/models/org.trade.net.cto" beforeDir="false" afterPath="$PROJECT_DIR$/composer/models/org.trade.net.cto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/test/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/composer/test/logic.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +49,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer/lib/logic.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="223">
               <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+=======
+            <state relative-caret-position="328">
+              <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer/test/logic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="489" column="45" selection-start-line="489" selection-start-column="45" selection-end-line="489" selection-end-column="45" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer/node_modules/composer-common/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="211" column="2" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -76,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer/models/org.trade.net.cto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            <state relative-caret-position="338">
+              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -94,12 +123,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware/config.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>businessNetworkConnection</find>
+      <find>getFullyQualifiedIdentifier</find>
+      <find>owner</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -108,8 +139,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer/models/org.trade.net.cto" />
         <option value="$PROJECT_DIR$/.Github/CODEOWNERS" />
+        <option value="$PROJECT_DIR$/composer/models/org.trade.net.cto" />
+        <option value="$PROJECT_DIR$/composer/test/logic.js" />
         <option value="$PROJECT_DIR$/composer/lib/logic.js" />
       </list>
     </option>
@@ -148,11 +180,6 @@
             <path>
               <item name="trade-finance-logistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="trade-finance-logistics" type="462c0819:PsiDirectoryNode" />
-              <item name=".Github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trade-finance-logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trade-finance-logistics" type="462c0819:PsiDirectoryNode" />
               <item name="chaincode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,7 +197,7 @@
               <item name="trade-finance-logistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="trade-finance-logistics" type="462c0819:PsiDirectoryNode" />
               <item name="composer" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,6 +219,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,6 +240,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25607476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -279,6 +308,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.Github/CODEOWNERS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -286,17 +322,42 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/composer/node_modules/composer-common/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="211" column="2" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer/test/logic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="489" column="45" selection-start-line="489" selection-start-column="45" selection-end-line="489" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/composer/models/org.trade.net.cto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="338">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer/lib/logic.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="223">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+=======
+        <state relative-caret-position="328">
+          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

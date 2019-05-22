@@ -54,8 +54,15 @@ function onMergeAssets(tx) {
     var assetRegistry;
     var mergeFromAsset = tx.mergeFrom;
     var mergeToAsset = tx.mergeTo;
+<<<<<<< Updated upstream
     mergeToAsset.value += tx.mergeFrom.value;
     // hahasdf
+=======
+    var toNum = parseInt(mergeToAsset.value);
+    var fromNum = parseInt(mergeFromAsset.value);
+    mergeToAsset.value = toNum + fromNum + '';
+    // hahasdfasdfasdfasdf
+>>>>>>> Stashed changes
     return getAssetRegistry('org.trade.net.SampleAsset')
         .then(function(ar) {
             assetRegistry = ar;
