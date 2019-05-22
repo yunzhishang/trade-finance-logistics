@@ -44,6 +44,6 @@ event SampleEvent {
 }
 
 transaction MergeAssets {
-  --> SampleAsset mergeFrom
-  --> SampleAsset mergeTo
+  --> Asset mergeFrom
+  --> Asset mergeTo
 }
